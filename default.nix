@@ -9,6 +9,7 @@ pkgs.llvmPackages_17.stdenv.mkDerivation {
   nativeBuildInputs = [
     pkgs.cmake
     pkgs.ninja
+    pkgs.clang-tools_17
   ];
 
   meta = {
